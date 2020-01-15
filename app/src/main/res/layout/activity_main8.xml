@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/a"
+    tools:context=".Main8Activity">
+
+    <TextView
+        android:gravity="center_horizontal"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pilih Hafalan Doa"
+        android:textSize="30dp"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"/>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#800000"
+        android:onClick="kamu"
+        android:text="Doa Sebelum Berpergian"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#000000"
+        android:onClick="lali"
+        android:text="Doa Minta Hujan"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#808080"
+        android:onClick="ba"
+        android:text="Doa Makan"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#7FFF00"
+        android:onClick="er"
+        android:text="Doa Tidur"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#006400"
+        android:onClick="ty"
+        android:text="Doa Jenazah"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#A52A2A"
+        android:onClick="ui"
+        android:text="Doa Masuk Kamar Mandi"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#008B8B"
+        android:onClick="op"
+        android:text="Doa Untuk Orang Tua"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8B0000"
+        android:onClick="as"
+        android:text="Doa Ketika Mimpi Buruk"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimaryDark"
+        android:onClick="culun"
+        android:text="kembali"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+
+
+
+</LinearLayout>
